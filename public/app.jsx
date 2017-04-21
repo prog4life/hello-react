@@ -24,12 +24,12 @@ var GreeterForm = React.createClass({
     var message = this.refs.message.value;
 
     if (name.length > 0) {
-      this.refs.name.value = "";
+      this.refs.name.value = '';
       updates.name = name;
     }
 
     if (message.length > 0) {
-      this.refs.message.value = "";
+      this.refs.message.value = '';
       updates.message = message;
     }
 
@@ -48,7 +48,6 @@ var GreeterForm = React.createClass({
         <div>
           <button>Submit</button>
         </div>
-
       </form>
     );
   }
@@ -58,8 +57,8 @@ var Greeter = React.createClass({
 
   getDefaultProps: function () {
     return {
-      name: "React",
-      message: "This is the default message!"
+      name: 'React',
+      message: 'This is the default message!'
     };
   },
 
@@ -88,9 +87,9 @@ var Greeter = React.createClass({
   }
 });
 
-var firstName = "JC";
+var firstName = 'JC';
 
 ReactDOM.render(
   <Greeter name={firstName} />,
-  document.getElementById("app")
+  document.getElementById('app')
 );

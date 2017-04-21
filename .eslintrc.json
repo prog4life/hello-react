@@ -76,7 +76,7 @@
     "padded-blocks": 0,
     "prefer-const": ["off"],
     "prefer-destructuring": 0,
-    "quotes": [1, "double", {
+    "quotes": [1, "single", {
       "avoidEscape": true,
       "allowTemplateLiterals": true
     }],
