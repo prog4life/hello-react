@@ -23,8 +23,6 @@
       "console": false,
       "alert": false,
       "process": false,
-      "React": false,
-      "ReactDOM": false,
       "__dirname": false
   },
   "extends": "eslint:all",
