@@ -24,7 +24,8 @@
       "alert": false,
       "process": false,
       "React": false,
-      "ReactDOM": false
+      "ReactDOM": false,
+      "__dirname": false
   },
   "extends": "eslint:all",
   "rules": {
