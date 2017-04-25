@@ -69,7 +69,10 @@
       "terms": ["todo", "fixme", "xxx"],
       "location": "start"
     }],
-    "object-curly-newline": ["warn", { "minProperties": 1 }],
+    "object-curly-newline": ["warn", {
+      "ObjectExpression": "always",
+      "ObjectPattern": "never"
+    }],
     "object-shorthand": "off",
     "one-var": [0],
     "padded-blocks": 0,
